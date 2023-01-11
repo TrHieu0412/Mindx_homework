@@ -1,0 +1,77 @@
+.information{
+    height: 1024px;
+    width: 1440px;
+    background-color: black;
+    color: white;
+    border-radius: 77px;
+
+}
+.information_left{
+    width: 600px;
+    float:left;
+}
+img{
+    height: 759px;
+    width: 544px;
+    border-top-left-radius: 77px;
+}
+.information_name{
+    width: 351px;
+    text-transform: uppercase;
+    margin-top: 34px;
+    margin-left: 71px;
+}
+.information_job{
+    width: 212px;
+    height: 63px;
+    margin-left: 71px;
+}
+.information_right{
+    width:840px;
+    float:left;
+}
+.slogan{
+    font-size: 28px;
+    margin-top: 62px;
+}
+.more_information{
+    font-size: 28px;
+}
+.information_ae{
+    font-size: 20px;
+    display:flex;
+    justify-content: flex-start;
+}
+.age{
+    width: 250px;
+}
+.education{
+    width: 250px;
+}
+.information_sl{
+    font-size: 20px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: flex-start;
+}
+.status{
+    width: 250px;
+}
+.location{
+    width: 250px;
+}
+.information_about{
+    font-size:28px;
+}
+.text{
+    font-size: 20px;
+}
+.information_interests{
+    font-size: 28px;
+}
+ul li{
+    font-size: 20px;
+}
+.information_contact{
+    font-size: 28px;
+}

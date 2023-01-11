@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #8a8fa3;
+}
+.services{
+
+    background-color: #f8f9fa;
+    min-height: 1000px;
+}
+.service_header{
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding-top: 125px;
+}
+.service_header h1{
+    font-size: 45px;
+    color: black;
+}
+.service_content{
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px;
+}
+.service_item{
+    max-width: 350px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 5px;
+    min-height: 250px;
+}
+.service_item h4{
+    color:#32333c;
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.service_item .icon{
+    color: #754ef9;
+    font-size: 46px;
+}

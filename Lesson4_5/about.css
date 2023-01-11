@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #8a8fa3;
+}
+.about{
+    margin-top: 180px;
+    margin-bottom: 130px;
+}
+.about_header{
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.about_header h1{
+    font-size: 45px;
+    color: black;
+}
+.about_information{
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    gap: 40px;
+}
+.about_left{
+    width: 50%;
+}
+.about_right{
+    width: 50%;
+}
+.about_left h2{
+    font-size: 18px;
+    color: #32333C;
+    margin-bottom: 15px;
+}
+.about_moreinformation{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 15px;
+}
+.about_more{
+    display: flex;
+    row-gap:10px;
+    column-gap:5px;
+}
+.about_more .icon2{
+    color:#6610f2;
+
+}
+.about_skill{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    color: #32333C;
+}
+
+.about_percent{
+    background-color:#8a8fa3;
+    width: 400px;
+    border-radius: 5px;
+    height: 5px;
+    display: flex;
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.html{
+    background-color: #754ef9;
+    width: 80%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 5px;
+}
+.css{
+    background-color: #754ef9;
+    width: 60%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 5px;
+}
+.photoshop{
+    background-color: #754ef9;
+    width: 50%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 5px;
+}
+.sketch{
+    background-color: #754ef9;
+    width: 90%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 5px;
+}
