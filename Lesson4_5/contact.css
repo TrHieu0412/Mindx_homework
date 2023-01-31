@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #8a8fa3;
+}
+.contact{
+    background-color: #f8f9fa;
+    min-height: 1000px;
+    padding-bottom: 130px;
+}
+.contact_header{
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding-top: 125px;
+}
+.contact_header h1{
+    font-size: 45px;
+    color: black;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+.contact_header p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.contact_container{
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    gap: 20px;
+}
+.contact_item{
+    max-width: 350px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 5px;
+    min-height: 250px;
+    padding: 30px;
+    padding-bottom: 35px;
+}
+.contact_item .icon{
+    color: #754ef9;
+    font-size: 46px;
+}
+.contact_item h4{
+    font-size: 18px;
+    color: #32333c;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+.contact_about{
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 50px;
+    gap: 20px;
+}
+.contact_send{
+    width: 540px;
+}
+.contact_form{
+    padding-bottom: 25px;
+}
+.contact_form input{
+    width: 100%;
+    height: 55px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 0 25px;
+    font-size: 16px;
+    color: #8a8fa3;
+}
+.contact_form_message input{
+    width: 100%;
+    height: 135px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    color: #8a8fa3;
+    resize: none;
+    padding: 0 25px;
+    padding-top: 10px;
+}
+.contact_button{
+    width: 220px;
+    height: 40px;
+    text-transform: uppercase;
+    padding: 0 40px;
+    border: 1px solid #754ef9;
+    border-radius: 50px;
+    background-color: #754ef9;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+
+.contact_map iframe{
+    max-width: 550px;
+    height: 309px;
+    left: 800px;
+}

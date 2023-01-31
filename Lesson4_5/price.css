@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #8a8fa3;
+}
+.states{
+    background-color: #f8f9fa;
+    min-height: 1000px;
+    padding-top: 120px;
+}
+.states_header{
+    width: 730px;
+    margin: 0 auto;
+    text-align: center;
+}
+.states_header h1{
+    font-size: 45px;
+    color: black;
+    padding-bottom: 20px;
+}
+.states_header p{
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+.states_container{
+    display: flex;
+    width: 1150px;
+    margin: 0 auto;
+    gap: 30px;
+    padding: 15px;
+}
+.states_item{
+    border: 1px solid #8a8fa3;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-top: #754ef9;
+    text-align: center;
+    min-width: 3px;
+    text-align: center;
+    height: 600px;
+}
+.states_level{
+    background-color:#754ef9 ;
+    color: white;
+    padding: 25px;
+    height: 80px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.states_level h2{
+    font-size: 22px;
+}
+.states_introducelevel{
+    padding: 16px;
+    font-size: 16px;
+
+}
+.states_price{
+    font-size: 30px;
+    color: #754ef9;
+    font-weight: 600;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #8a8fa3;
+}
+.states_list{
+    margin-top: 30px;
+}
+.states_list ul li{
+    list-style: none;
+    color: #32333C;
+    margin: 10px;
+}
+.states_button{
+    width: 180px;
+    height: 50px;
+    text-transform: uppercase;
+    padding: 0 40px;
+    border: 1px solid #754ef9;
+    border-radius: 50px;
+    background-color: #754ef9;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+.states_button_1{  
+    width: 180px;
+    height: 50px;
+    text-transform: uppercase;
+    padding: 0 40px;
+    border: 1px solid #754ef9;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-weight: 500;
+    background-color: white;
+    color: #754ef9;
+}

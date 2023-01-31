@@ -10,7 +10,7 @@ body {
 }
 .menu{
     background-color:white;
-    position: fixed;
+    position: fixed 
     top:0px;
     left: 0px;
     right: 0px;
@@ -20,6 +20,7 @@ body {
     height: 115px;
     justify-content: flex-start;
     box-shadow: 0 0 20px 0 ;
+
 }
 .logo{
     position: relative;
@@ -37,6 +38,7 @@ body {
     text-transform: uppercase;
     justify-content: ;
     gap:25px;
+    font-weight: 500;
 }
 .home{
     background-image: url(./Image/background.jpg);
