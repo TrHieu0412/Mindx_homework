@@ -12,7 +12,7 @@ if(gender==='nam'&&age>=18&&age<=27){
     2. Với mỗi 5 triệu tiếp theo phải chịu tương ứng 5%, 10%, 15%, 20% ~ 35% thuế.
     3. Sau khi tính được khoản thuế phải đóng, hãy tính phần lương còn lại sau khi đóng thuế.*/
 let oldsalary=11000000;
-let newsalary=15000000;
+let newsalary=60000000;
 let tax= 0;
 let salary=0;
 let total=newsalary-oldsalary;
@@ -40,3 +40,4 @@ let total=newsalary-oldsalary;
 }
 console.log("Khoản thuế phải đóng sau khi nhận lương là",tax)
 console.log("Lương sau khi đóng thuế là", salary)
+
