@@ -35,4 +35,4 @@ function Sum3(prime){
         }
     }
 }
-console.log(Sum3(2))
+console.log(Sum3(10))
