@@ -22,8 +22,9 @@
  */
 
       const products = [
-        {
-          id: 1,
+        
+       {
+          id:1,
           title: "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
           price: 109.95,
           description:
@@ -34,7 +35,7 @@
             rate: 3.9,
             count: 120,
           },
-        },
+       },
         {
           id: 2,
           title: "Mens Casual Premium Slim Fit T-Shirts ",
@@ -323,4 +324,13 @@ function WomenClo(product){
 }
 console.log(WomenClo(products))
 // 4. In ra danh sách các category
-
+function CategoryPrint(products){
+  let total_4="";
+  for(let i=0;i<products.length;i++){
+    if (total_4.indexOf(products[i].category) === -1) {
+      total_4+=products[i].category;
+  }
+ }
+  return total_4;
+}
+console.log(CategoryPrint(products))
